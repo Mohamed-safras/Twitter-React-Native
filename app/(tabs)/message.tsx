@@ -1,8 +1,9 @@
 import { FlatList, ScrollView, StyleSheet } from "react-native";
+
 import tweets from "../../assets/data/tweets";
 import EditScreenInfo from "../../components/EditScreenInfo";
-import Tweet from "../../components/Tweet/Tweet";
 
+import Tweet from "../../components/Tweet/Tweet";
 export default function TabOneScreen() {
   return (
     <FlatList
